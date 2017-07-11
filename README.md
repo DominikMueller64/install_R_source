@@ -1,6 +1,6 @@
 # Install different R versions from source
 
-A simple shell script to install different versions of R (3.X.X) directly from source.
+A simple shell script to install different versions of R-(3.X.X) directly from source.
 Tested on Ubuntu 14.04.
 
 ## Usage
@@ -12,3 +12,8 @@ Make sure the requested version is available from <https://cran.r-project.org/sr
 
 Example:
 `./install_R_source 3.4.1`
+
+R is then installed to `/usr/local/R/d.d.d`, where the executable is located at `/usr/local/R/d.d.d/bin/R`.
+The shell scripts creates a symbolic link to `/usr/bin/R-d.d.d`, such that the correct R version should be stared by
+typing `R-d.d.d` in a shell.
+
