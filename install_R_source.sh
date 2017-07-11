@@ -37,6 +37,6 @@ cd ../..
 rm -rf $HOME/R_tmp
 
 # Create symbolic link
-ln -s /usr/local/R/${R_VERSION}/bin/R /usr/bin/R-${R_VERSION}
+sudo ln -s /usr/local/R/${R_VERSION}/bin/R /usr/bin/R-${R_VERSION}
 
 echo The R-${R_VERSION} executable is now available in /usr/bin/R-${R_VERSION}
